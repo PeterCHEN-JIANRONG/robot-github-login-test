@@ -2,7 +2,7 @@
 test github login by robot framework
 
 1. 安裝Python:
-請參考:https://dotblogs.com.tw/Johnes/2018/08/17/162422安裝步驟
+請參考:https://dotblogs.com.tw/Johnes/2018/08/17/162422
 3. 打開終端機輸入:
 pip install robotframework
 pip install robotframework-seleniumlibrary
