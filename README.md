@@ -7,5 +7,11 @@ test github login by robot framework
     - pip install robotframework
     - pip install robotframework-seleniumlibrary
 4. 下載chromedriver放置python資料夾內:https://sites.google.com/a/chromium.org/chromedriver/
-5. 至clone的git repo底下開啟終端機，輸入指令robot：
+5. clone的git repo：
+    - https://github.com/PeterCHEN-JIANRONG/robot-github-login-test.git
+6. 打開資料夾，裡面有個setting.py檔案，輸入git帳號、密碼、使用者名稱。(帳密為登入使用，使用者名稱為驗證登入正確)
+    - gitAccount = ""
+    - gitPassword = ""
+    - gitUserName = ""
+7. 開啟終端機，cd至repo底下，並輸入指令執行robot：
     - robot -d log -V setting.py  test1.robot
